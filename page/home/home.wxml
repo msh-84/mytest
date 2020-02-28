@@ -1,2 +1,7 @@
 <!--page/home/home.wxml-->
-<text class="red">hello,word!</text>
+<!-- 1小程序的数据绑定 -->
+<view>hello {{name}}</view>
+<view>{{ msg }}</view>
+<button bindtap="clickMe">点击我</button>
+<button bindtap="clickMe2">点击我</button>
+

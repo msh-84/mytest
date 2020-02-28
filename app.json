@@ -2,5 +2,26 @@
   "pages": [
     "page/home/home",
     "page/about/about"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "page/home/home",
+        "text": "首页",
+        "iconPath": "/assels/tabbar/home.png",
+        "selectedIconPath": "/assels/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "page/about/about",
+        "text": "分类",
+        "iconPath": "/assels/tabbar/category.png",
+        "selectedIconPath": "/assels/tabbar/category_active.png"
+      }
+    ]
+  }
 }
